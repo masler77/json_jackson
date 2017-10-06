@@ -1,0 +1,11 @@
+{
+  "id" : 1234,
+  "name" : "Magnus",
+  "test" : "Master77",
+  "Object" : {
+    "id" : 345433,
+    "name" : "KalleAnka",
+    "lastName" : "AnkeBorg"
+  },
+  "Array" : [ "MagnusArray", "MagnusArray" ]
+}

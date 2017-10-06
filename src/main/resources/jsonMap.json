@@ -1,0 +1,26 @@
+{
+  "key1" : 1,
+  "key2" : 22,
+  "key3" : 333,
+  "booleanTrue" : true,
+  "booleanFalse" : false,
+  "array" : [ "1", "2", "3" ],
+  "arratOfObjects" : [ {
+    "id" : 1234,
+    "name" : "Magnus",
+    "lastName" : "leray"
+  }, {
+    "id" : 1,
+    "name" : "Magnus2",
+    "lastName" : "leray2"
+  } ],
+  "nestedObjekt" : {
+    "id" : 1234,
+    "name" : "Magnus",
+    "lastName" : "leray"
+  },
+  "integer" : 1,
+  "valueNull" : null,
+  "list" : [ 1, 2, 3, 4, 5 ],
+  "date" : "2017-10-05T12:04:51.180"
+}

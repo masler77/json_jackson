@@ -1,0 +1,28 @@
+{
+  "type" : "object",
+  "id" : "urn:jsonschema:schemaValidering:lectureSchema",
+  "properties" : {
+    "id" : {
+      "type" : "integer",
+      "description" : "id av felt"
+    },
+    "name" : {
+      "type" : "string",
+      "required" : true,
+      "description" : "är tvingande"
+    },
+    "NameLine2" : {
+      "type" : "string",
+      "required" : true
+    },
+    "pa" : {
+      "type" : "boolean"
+    },
+    "nameLine2" : {
+      "type" : "string"
+    },
+    "Beskrivning" : {
+      "type" : "string"
+    }
+  }
+}
