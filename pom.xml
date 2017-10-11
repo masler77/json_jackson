@@ -12,6 +12,20 @@
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-xml -->
+<dependency>
+    <groupId>com.fasterxml.jackson.dataformat</groupId>
+    <artifactId>jackson-dataformat-xml</artifactId>
+    <version>2.9.1</version>
+</dependency>
+		<!-- https://mvnrepository.com/artifact/org.codehaus.woodstox/woodstox-core-asl -->
+<dependency>
+    <groupId>org.codehaus.woodstox</groupId>
+    <artifactId>woodstox-core-asl</artifactId>
+    <version>4.4.1</version>
+</dependency>
+		
+	
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-databind</artifactId>
@@ -20,8 +34,17 @@
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-annotations</artifactId>
+			<version>2.9.0</version>
+			<type>bundle</type>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.dataformat</groupId>
+			<artifactId>jackson-dataformat-xml</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
+		
+	
+		
 		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.module/jackson-module-jsonSchema -->
 <dependency>
     <groupId>com.fasterxml.jackson.module</groupId>
